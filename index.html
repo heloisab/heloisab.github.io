@@ -76,11 +76,10 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2">                
                        <!-- <h1 class="brand-heading">Hi,</h1>-->
-                        <p class="intro-text">Electrical Engineer from Florianópolis, Brazil. Passion for analog & digital circuit design, embedded systems programming, Art & Education, and Hacker culture</p>
+            	        <p class="intro-text">Electrical Engineer from Florianópolis, Brazil. Passion for analog & digital circuit design, embedded systems programming, Art & Education, and Hacker culture</p>
                         <!-- writedown something like Interaction Designer from Vancouver, Canada. Passion for digital and physical interfaces and interactions.-->
-                        
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -95,8 +94,8 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About me</h2>
-                <p>My name is Antonio Carlos Luppi Junior, AKA Luppi. I am almost graduating in Electrical Engineering @ <abbr title="Federal University of Santa Catarina">UFSC</abbr>, at the city of Florianópolis - Brazil. Electronic Designer who comprehends that technology can be ludic, accessible, and inspiring.</p>
-		<p> Professionally, I believe that the <i> in-time & simple solution</i> is way better than the <i> perfect-but-late solution</i>, andI usually works on rapid prototyping and quick learning and iteration from failures to get things done. Bringing the sense of creativity in solving problems in unconventional ways. I also conceive that respect and listening are the keys for good teamwork and sinergy.</p>
+                <p>My name is Antonio Carlos Luppi Junior,<i> AKA <u>Luppi</u></i>. I am almost graduating in Electrical Engineering at the <a href="http://en.wikipedia.org/wiki/Universidade_Federal_de_Santa_Catarina">Federal University of Santa Catarina</a>.<br>Electronic Designer who comprehends that technology can be ludic, accessible, and inspiring.</p>
+		<p> Professionally, I believe that the <i> in-time & simple solution</i> is way better than the <i> perfect-but-late solution</i>, and I works on rapid prototyping and quick learning and iteration from failures to get things done. Bringing the sense of creativity in solving problems in unconventional ways. I also conceive that respect and listening are the keys for good teamwork and sinergy.</p>
 		<p>I'm member of <a href="http://tarrafa.net/">Tarrafa HackerClube</a>, a local Hackerspace in Florianópolis, and I am very enthusiastic of the Hacker culture. I have future plans to start some side projects concerning Art, Tech, and Education.</p>
             </div>
         </div>
@@ -104,12 +103,14 @@
 
  <!-- Services Section -->
     <section id="services" class="content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>My services</h2>
-                <p> Describe Describe Describe Describe Describe Describe Describe Describe Describe Describe Describe</p>
-            </div>
-        </div>
+    	<div class="services-section">
+		    <div class="row">
+		        <div class="col-lg-8 col-lg-offset-2">
+		            <h2>My services</h2>
+		            <p> Describe Describe Describe Describe Describe Describe Describe Describe Describe Describe Describe</p>
+		        </div>
+       		</div>
+       	</div>
     </section>
  <!-- Portfolio Section -->
     <section id="portfolio" class="content-section text-center">
@@ -128,9 +129,10 @@
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Get in touch :)</h2>
+            <img id="futureguy" src="img/icamefromthefuture.png" data-toggle="tooltip" data-placement="bottom" title="greetings from the future"></img>
+                <h2>Contact me :)</h2>
                 <p>To discuss potential projects and collaborations, please contact me at <a href="mailto:luppijr@gmail.com">luppijr@gmail.com</a>. You can also check my social networks.</p>
-		<p><i class="fa fa-coffee fa-fw"></i> Let's have some coffee and do awesome stuff together. <i class="fa fa-coffee fa-fw"></i></p>
+                <p><i class="fa fa-coffee fa-fw"></i> Let's have some coffee and do awesome stuff together. <i class="fa fa-coffee fa-fw"></i></p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="https://github.com/antonioluppi" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
@@ -171,6 +173,10 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+    <script> $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
 
 </body>
 
